@@ -13,7 +13,7 @@ config_s2i
 echo "---> Installing application source"
 cp -Rf /tmp/src/*.html ./
 
-DATE=date "+%Y-%m-%d"
+DATE=`date "+%F"`
 
 echo "Page build on $DATE" >> ./info.html
 echo "Apache version is $HTTPD_VERSION" >> ./info.html
