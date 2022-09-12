@@ -16,8 +16,8 @@ cp -Rf /tmp/src/*.html ./
 
 DATE=$(date "+%F")
 
-echo "Page built on $DATE" >> ./info.html
-echo "Proudly served Vangelis Apache $HTTPD_VERSION" >> ./info.html
+echo "Page built on $DATE" >> ./index.html
+echo "Something else" >> ./index.html
 
 ######## CUSTOMIZATION ENDS HERE ############
 
